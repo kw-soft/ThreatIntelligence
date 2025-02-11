@@ -37,8 +37,8 @@ Ensure you have Python installed (version 3.7+ recommended). You also need:
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/ThreatFeed-HQ.git
-cd ThreatFeed-HQ
+git clone https://github.com/KW-Soft/ThreatIntelligence.git
+cd ThreatIntelligence
 ```
 
 ### Install Dependencies
