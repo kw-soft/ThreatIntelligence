@@ -5,8 +5,8 @@
 Stay updated with the latest security advisories and news from multiple trusted sources. Our Discord server aggregates real-time threat intelligence from vendors like Sophos, Cisco, and many more.
 
 [**Join ThreatFeed HQ on Discord**](https://discord.gg/BgUCmYP3px)
-[![Alt text]([https://example.com/path/to/image.png](https://discord.com/api/guilds/1337808478613278742/widget.png?style=banner4))](https://discord.gg/BgUCmYP3px)
 
+[<img src="https://discord.com/api/guilds/1337808478613278742/widget.png?style=banner4">]([https://link-to-your-URL/](https://discord.gg/BgUCmYP3px))
 
 ---
 
