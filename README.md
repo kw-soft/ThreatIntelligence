@@ -94,5 +94,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-For any issues or suggestions, feel free to open an issue or join our [**Discord Server**](YOUR_DISCORD_INVITE_LINK).
+For any issues or suggestions, feel free to open an issue or join our [**Discord Server**](https://discord.gg/BgUCmYP3px).
 
