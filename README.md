@@ -6,6 +6,7 @@ Stay updated with the latest security advisories and news from multiple trusted 
 
 [**Join ThreatFeed HQ on Discord**](https://discord.gg/BgUCmYP3px)
 
+![Discord Banner 4](https://discord.com/api/guilds/1337808478613278742/widget.png?style=banner4)
 ---
 
 ## 📌 About This Project
