@@ -1,0 +1,480 @@
+2025-02-08 16:40:21,909 [INFO] RSS Feed Aggregator started.
+2025-02-08 16:40:21,910 [INFO] Fetching feeds...
+2025-02-08 16:40:21,910 [INFO] Loaded 30 posted entries.
+2025-02-08 16:40:22,025 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:40:22,395 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:40:22,398 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:40:22,398 [INFO] Sleeping for 300 seconds...
+2025-02-08 16:40:51,300 [INFO] Aggregator stopped by user.
+2025-02-08 16:41:19,533 [INFO] RSS Feed Aggregator started.
+2025-02-08 16:41:19,534 [INFO] Fetching feeds...
+2025-02-08 16:41:19,534 [INFO] Loaded 30 posted entries.
+2025-02-08 16:41:19,678 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:41:20,227 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:41:20,230 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:41:20,230 [INFO] Sleeping for 10 seconds...
+2025-02-08 16:41:30,234 [INFO] Fetching feeds...
+2025-02-08 16:41:30,234 [INFO] Loaded 30 posted entries.
+2025-02-08 16:41:30,326 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:41:30,565 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:41:30,568 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:41:30,568 [INFO] Sleeping for 10 seconds...
+2025-02-08 16:41:40,577 [INFO] Fetching feeds...
+2025-02-08 16:41:40,577 [INFO] Loaded 30 posted entries.
+2025-02-08 16:41:40,678 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:41:40,965 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:41:40,968 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:41:40,968 [INFO] Sleeping for 10 seconds...
+2025-02-08 16:41:50,981 [INFO] Fetching feeds...
+2025-02-08 16:41:50,981 [INFO] Loaded 30 posted entries.
+2025-02-08 16:41:51,068 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:41:51,300 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:41:51,303 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:41:51,303 [INFO] Sleeping for 10 seconds...
+2025-02-08 16:42:01,306 [INFO] Fetching feeds...
+2025-02-08 16:42:01,306 [INFO] Loaded 30 posted entries.
+2025-02-08 16:42:01,408 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:42:01,657 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:42:01,659 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:42:01,660 [INFO] Sleeping for 10 seconds...
+2025-02-08 16:42:04,119 [INFO] Aggregator stopped by user.
+2025-02-08 16:48:17,762 [INFO] RSS Feed Aggregator started.
+2025-02-08 16:48:17,763 [INFO] Starting global feed polling cycle...
+2025-02-08 16:48:17,763 [INFO] Loaded 30 posted entries.
+2025-02-08 16:48:17,875 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:48:17,899 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 16:48:28,327 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:48:28,329 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 16:48:38,333 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:48:38,333 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 16:49:08,335 [INFO] Starting global feed polling cycle...
+2025-02-08 16:49:08,335 [INFO] Loaded 30 posted entries.
+2025-02-08 16:49:08,435 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:49:08,459 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 16:49:18,691 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:49:18,694 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 16:49:28,695 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:49:28,695 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 16:49:58,700 [INFO] Starting global feed polling cycle...
+2025-02-08 16:49:58,700 [INFO] Loaded 30 posted entries.
+2025-02-08 16:49:58,795 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:49:58,817 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 16:50:09,206 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:50:09,209 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 16:50:19,217 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:50:19,217 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 16:50:22,834 [INFO] Aggregator stopped by user.
+2025-02-08 16:50:24,733 [INFO] RSS Feed Aggregator started.
+2025-02-08 16:50:24,733 [INFO] Starting feed polling cycle
+2025-02-08 16:50:24,733 [INFO] Loaded 30 posted entries.
+2025-02-08 16:50:24,864 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:50:35,209 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:50:45,226 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:50:45,227 [INFO] Global cycle completed.
+2025-02-08 16:51:15,241 [INFO] Starting feed polling cycle
+2025-02-08 16:51:15,241 [INFO] Loaded 30 posted entries.
+2025-02-08 16:51:15,359 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:51:25,732 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:51:35,738 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:51:35,738 [INFO] Global cycle completed.
+2025-02-08 16:52:05,743 [INFO] Starting feed polling cycle
+2025-02-08 16:52:05,743 [INFO] Loaded 29 posted entries.
+2025-02-08 16:52:05,849 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:52:05,873 [INFO] New entry found: Resolved LPE vulnerability in Sophos Intercept X for Windows (CVE-2024-8885)
+2025-02-08 16:52:16,131 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:52:26,141 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:52:26,141 [INFO] Global cycle completed.
+2025-02-08 16:52:56,147 [INFO] Starting feed polling cycle
+2025-02-08 16:52:56,147 [INFO] Loaded 30 posted entries.
+2025-02-08 16:52:56,242 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:53:06,827 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:53:16,833 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:53:16,833 [INFO] Global cycle completed.
+2025-02-08 16:53:46,847 [INFO] Starting feed polling cycle
+2025-02-08 16:53:46,847 [INFO] Loaded 30 posted entries.
+2025-02-08 16:53:46,962 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:53:57,513 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:54:07,518 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:54:07,518 [INFO] Global cycle completed.
+2025-02-08 16:54:37,521 [INFO] Starting feed polling cycle
+2025-02-08 16:54:37,521 [INFO] Loaded 30 posted entries.
+2025-02-08 16:54:37,632 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:54:48,033 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:54:58,037 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:54:58,037 [INFO] Global cycle completed.
+2025-02-08 16:55:28,047 [INFO] Starting feed polling cycle
+2025-02-08 16:55:28,047 [INFO] Loaded 30 posted entries.
+2025-02-08 16:55:28,157 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:55:38,495 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:55:48,508 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:55:48,509 [INFO] Global cycle completed.
+2025-02-08 16:56:18,522 [INFO] Starting feed polling cycle
+2025-02-08 16:56:18,522 [INFO] Loaded 30 posted entries.
+2025-02-08 16:56:18,643 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:56:29,060 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:56:39,071 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:56:39,071 [INFO] Global cycle completed.
+2025-02-08 16:57:09,084 [INFO] Starting feed polling cycle
+2025-02-08 16:57:09,084 [INFO] Loaded 30 posted entries.
+2025-02-08 16:57:09,190 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:57:19,456 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:57:29,469 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:57:29,470 [INFO] Global cycle completed.
+2025-02-08 16:57:59,470 [INFO] Starting feed polling cycle
+2025-02-08 16:57:59,470 [INFO] Loaded 30 posted entries.
+2025-02-08 16:57:59,574 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:58:09,983 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:58:19,992 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:58:19,992 [INFO] Global cycle completed.
+2025-02-08 16:58:50,004 [INFO] Starting feed polling cycle
+2025-02-08 16:58:50,004 [INFO] Loaded 30 posted entries.
+2025-02-08 16:58:50,150 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:59:00,414 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 16:59:10,426 [INFO] Successfully saved 30 posted entries.
+2025-02-08 16:59:10,426 [INFO] Global cycle completed.
+2025-02-08 16:59:40,429 [INFO] Starting feed polling cycle
+2025-02-08 16:59:40,429 [INFO] Loaded 30 posted entries.
+2025-02-08 16:59:40,536 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 16:59:50,892 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:00:00,901 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:00:00,902 [INFO] Global cycle completed.
+2025-02-08 17:00:30,915 [INFO] Starting feed polling cycle
+2025-02-08 17:00:30,915 [INFO] Loaded 30 posted entries.
+2025-02-08 17:00:31,064 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:00:41,330 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:00:51,337 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:00:51,337 [INFO] Global cycle completed.
+2025-02-08 17:01:21,350 [INFO] Starting feed polling cycle
+2025-02-08 17:01:21,350 [INFO] Loaded 30 posted entries.
+2025-02-08 17:01:21,455 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:01:31,857 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:01:41,867 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:01:41,867 [INFO] Global cycle completed.
+2025-02-08 17:02:11,882 [INFO] Starting feed polling cycle
+2025-02-08 17:02:11,882 [INFO] Loaded 30 posted entries.
+2025-02-08 17:02:12,063 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:02:22,402 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:02:32,416 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:02:32,416 [INFO] Global cycle completed.
+2025-02-08 17:03:02,423 [INFO] Starting feed polling cycle
+2025-02-08 17:03:02,423 [INFO] Loaded 30 posted entries.
+2025-02-08 17:03:02,539 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:03:12,934 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:03:22,936 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:03:22,937 [INFO] Global cycle completed.
+2025-02-08 17:03:52,949 [INFO] Starting feed polling cycle
+2025-02-08 17:03:52,949 [INFO] Loaded 30 posted entries.
+2025-02-08 17:03:53,077 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:04:03,328 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:04:13,345 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:04:13,345 [INFO] Global cycle completed.
+2025-02-08 17:04:41,975 [INFO] Aggregator stopped.
+2025-02-08 17:05:12,002 [INFO] RSS Feed Aggregator started.
+2025-02-08 17:05:12,002 [INFO] Starting feed polling cycle
+2025-02-08 17:05:12,002 [INFO] Loaded 30 posted entries.
+2025-02-08 17:05:12,150 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:05:12,173 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:05:22,596 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:05:22,599 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:05:32,600 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:05:32,601 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:05:32,601 [INFO] Global cycle completed. Sleeping for 300 seconds...
+2025-02-08 17:05:49,444 [INFO] Aggregator stopped by user.
+2025-02-08 17:05:51,220 [INFO] RSS Feed Aggregator started.
+2025-02-08 17:05:51,221 [INFO] Starting feed polling cycle
+2025-02-08 17:05:51,221 [ERROR] Error decoding JSON from posted entries file: Expecting value: line 1 column 1 (char 0)
+2025-02-08 17:05:51,332 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:05:51,355 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:06:01,772 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:06:01,775 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:06:11,784 [INFO] Aggregated 30 new entries from all feeds.
+2025-02-08 17:06:11,963 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:12,153 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:12,327 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:12,506 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:12,697 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:12,885 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:13,084 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:13,297 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:13,578 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:13,765 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:13,943 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:14,121 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:14,296 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:14,497 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:14,700 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:14,891 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:15,069 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:15,263 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:15,444 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:15,679 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:15,863 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:16,083 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:16,271 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:16,443 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:16,651 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:16,824 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:17,033 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:17,226 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:17,421 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:17,606 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:06:17,607 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:06:17,608 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:06:47,623 [INFO] Starting feed polling cycle
+2025-02-08 17:06:47,623 [INFO] Loaded 30 posted entries.
+2025-02-08 17:06:47,725 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:06:47,748 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:06:58,088 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:06:58,091 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:07:08,091 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:07:08,092 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:07:08,092 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:07:38,095 [INFO] Starting feed polling cycle
+2025-02-08 17:07:38,095 [INFO] Loaded 30 posted entries.
+2025-02-08 17:07:38,219 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:07:38,242 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:07:48,543 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:07:48,546 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:07:58,551 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:07:58,552 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:07:58,552 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:08:28,567 [INFO] Starting feed polling cycle
+2025-02-08 17:08:28,568 [ERROR] Error decoding JSON from posted entries file: Expecting value: line 32 column 1 (char 3405)
+2025-02-08 17:08:28,686 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:08:28,713 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:08:39,192 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:08:39,194 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:08:49,200 [INFO] Aggregated 30 new entries from all feeds.
+2025-02-08 17:08:49,380 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:49,548 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:49,774 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:49,954 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:50,133 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:50,305 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:50,481 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:50,687 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:50,883 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:51,103 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:51,289 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:51,465 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:51,638 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:51,809 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:52,041 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:52,214 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:52,390 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:52,565 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:52,736 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:52,911 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:53,083 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:53,276 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:53,477 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:53,649 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:53,826 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:53,992 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:54,180 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:54,355 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:54,538 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:54,715 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:08:54,717 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:08:54,717 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:09:24,721 [INFO] Starting feed polling cycle
+2025-02-08 17:09:24,721 [INFO] Loaded 29 posted entries.
+2025-02-08 17:09:24,820 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:09:24,843 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:09:35,120 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:09:35,123 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:09:45,133 [INFO] Aggregated 1 new entries from all feeds.
+2025-02-08 17:09:45,318 [ERROR] Discord webhook returned status 400: {"webhook_id": ["Value \"YOUR_GLOBAL_WEBHOOK_ID\" is not snowflake."]}
+2025-02-08 17:09:45,319 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:09:45,319 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:09:59,853 [INFO] Aggregator stopped by user.
+2025-02-08 17:33:35,014 [INFO] RSS Feed Aggregator started.
+2025-02-08 17:33:35,015 [INFO] Starting feed polling cycle
+2025-02-08 17:33:35,015 [INFO] Loaded 30 posted entries.
+2025-02-08 17:33:35,182 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:33:35,206 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:33:46,067 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:33:46,070 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:33:56,075 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:33:56,076 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:33:56,076 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:34:26,085 [INFO] Starting feed polling cycle
+2025-02-08 17:34:26,085 [INFO] Loaded 0 posted entries.
+2025-02-08 17:34:26,209 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:34:26,232 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:34:36,977 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:34:36,980 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:34:46,982 [INFO] Aggregated 30 new entries from all feeds.
+2025-02-08 17:34:47,315 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:47,588 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:47,833 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:48,152 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:48,375 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:48,641 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:48,916 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:49,166 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:49,415 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:49,687 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:49,973 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:50,229 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:50,500 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:50,688 [ERROR] Discord webhook returned status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2025-02-08 17:34:50,975 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:51,161 [ERROR] Discord webhook returned status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2025-02-08 17:34:51,444 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:51,791 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:52,091 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:52,280 [ERROR] Discord webhook returned status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2025-02-08 17:34:52,639 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:52,965 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:53,165 [ERROR] Discord webhook returned status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2025-02-08 17:34:53,461 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:53,838 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:54,030 [ERROR] Discord webhook returned status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2025-02-08 17:34:54,314 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:54,579 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:54,766 [ERROR] Discord webhook returned status 429: {"message": "You are being rate limited.", "retry_after": 0.3, "global": false}
+2025-02-08 17:34:55,008 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:34:55,010 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:34:55,010 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:35:25,024 [INFO] Starting feed polling cycle
+2025-02-08 17:35:25,024 [INFO] Loaded 30 posted entries.
+2025-02-08 17:35:25,179 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:35:25,203 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:35:27,959 [INFO] Aggregator stopped by user.
+2025-02-08 17:42:58,962 [INFO] RSS Feed Aggregator started.
+2025-02-08 17:42:58,962 [INFO] Starting feed polling cycle
+2025-02-08 17:42:58,962 [INFO] Loaded 30 posted entries.
+2025-02-08 17:42:59,089 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:42:59,111 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:43:09,492 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:43:09,495 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:43:19,507 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:43:19,507 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:43:19,508 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:43:49,514 [INFO] Starting feed polling cycle
+2025-02-08 17:43:49,514 [INFO] Loaded 0 posted entries.
+2025-02-08 17:43:49,620 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:43:49,643 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:44:00,210 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:44:00,212 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:44:10,222 [INFO] Aggregated 30 new entries from all feeds.
+2025-02-08 17:44:10,488 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:10,711 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:10,949 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:11,197 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:11,441 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:11,702 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:11,966 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:12,214 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:12,434 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:12,863 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:13,088 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:13,379 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:13,612 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:14,142 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:14,414 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:14,700 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:14,938 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:15,303 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:15,558 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:15,822 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:16,111 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:16,356 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:16,585 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:16,848 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:17,071 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:17,322 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:17,564 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:17,785 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:18,021 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:18,276 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:18,569 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:18,862 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:19,160 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:19,411 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:19,646 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:19,895 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:20,188 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:20,502 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:20,825 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:21,149 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:44:21,450 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:21,763 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:22,010 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:22,283 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:22,919 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:23,208 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:23,612 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:24,207 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:24,449 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:24,703 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:25,063 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:25,287 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:25,582 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:25,816 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:26,187 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:26,444 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:26,788 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:27,033 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:27,303 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:44:27,590 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822445754777641/9vqqVYhpETcykwzsgHlzWwD8oxWPFaBY43twpJzyaCPLMiTjQsypxGQbB61Fy-LypwOT
+2025-02-08 17:44:27,591 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:44:27,591 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:44:57,603 [INFO] Starting feed polling cycle
+2025-02-08 17:44:57,603 [INFO] Loaded 30 posted entries.
+2025-02-08 17:44:57,702 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:44:57,724 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:45:08,227 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:45:08,229 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:45:18,245 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:45:18,245 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:45:18,245 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:45:48,257 [INFO] Starting feed polling cycle
+2025-02-08 17:45:48,257 [INFO] Loaded 29 posted entries.
+2025-02-08 17:45:48,357 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:45:48,384 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:45:58,625 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:45:58,628 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:46:08,630 [INFO] Aggregated 1 new entries from all feeds.
+2025-02-08 17:46:08,879 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822932466139136/8o2aHLHceDJOZF-mvu_a_fI0tCGOuRMkGzXF63BLYCx-_N3aMeCc3hab_ckCFWbtZjE0
+2025-02-08 17:46:09,191 [INFO] Successfully posted to Discord via webhook: https://discord.com/api/webhooks/1337822786323877918/LlB_wX3usVL1Dliz3j-AX6vWtt69_Um3gAl9uYEgGCFZrii8YqwBfu8k8xPSadNEua7t
+2025-02-08 17:46:09,192 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:46:09,192 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:46:39,207 [INFO] Starting feed polling cycle
+2025-02-08 17:46:39,207 [INFO] Loaded 30 posted entries.
+2025-02-08 17:46:39,325 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:46:39,348 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:46:50,306 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:46:50,309 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:47:00,323 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:47:00,324 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:47:00,324 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:47:30,338 [INFO] Starting feed polling cycle
+2025-02-08 17:47:30,338 [INFO] Loaded 30 posted entries.
+2025-02-08 17:47:30,491 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:47:30,513 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:47:41,060 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:47:41,063 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:47:51,074 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:47:51,075 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:47:51,075 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:48:21,083 [INFO] Starting feed polling cycle
+2025-02-08 17:48:21,083 [INFO] Loaded 30 posted entries.
+2025-02-08 17:48:21,212 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:48:21,235 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:48:31,841 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:48:31,844 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:48:41,852 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:48:41,853 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:48:41,853 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:49:11,856 [INFO] Starting feed polling cycle
+2025-02-08 17:49:11,856 [INFO] Loaded 30 posted entries.
+2025-02-08 17:49:11,957 [INFO] Loaded feed from URL: https://www.sophos.com/de-de/security-advisories/feed
+2025-02-08 17:49:11,980 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:49:22,223 [INFO] Loaded feed from URL: https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security
+2025-02-08 17:49:22,226 [INFO] Waiting 10 seconds before processing the next feed...
+2025-02-08 17:49:32,227 [INFO] Aggregated 0 new entries from all feeds.
+2025-02-08 17:49:32,227 [INFO] Successfully saved 30 posted entries.
+2025-02-08 17:49:32,228 [INFO] Global cycle completed. Sleeping for 30 seconds...
+2025-02-08 17:49:32,528 [INFO] Aggregator stopped by user.
