@@ -63,7 +63,7 @@ def save_posted_entries(posted_entries):
 
 def post_to_discord(entry, webhook_urls):
     """
-    Sends a structured message to Discord using embeds.
+    Sends a structured message to Discord using embeds and handles rate limiting.
 
     :param entry: Dictionary containing feed entry data.
     :param webhook_urls: List of Discord webhook URLs to send the message to.
@@ -71,13 +71,13 @@ def post_to_discord(entry, webhook_urls):
     embed = {
         "title": entry["title"],
         "url": entry["link"],
-        "description": f"**Published on:** {entry['pub_date']}\n"
-                       f"**Author:** {entry['author']}\n\n"
-                       f"**Overview:** {entry['overview']}...",
+        "description": (
+            f"**Published on:** {entry['pub_date']}\n"
+            f"**Author:** {entry['author']}\n\n"
+            f"**Overview:** {entry['overview']}..."
+        ),
         "color": 0x007bff,  # Blue color
-        "footer": {
-            "text": "ThreatFeed HQ"
-        }
+        "footer": {"text": "ThreatFeed HQ"}
     }
 
     payload = {
@@ -90,15 +90,33 @@ def post_to_discord(entry, webhook_urls):
         webhook_urls = [webhook_urls]
 
     for url in webhook_urls:
-        try:
-            response = requests.post(url, json=payload)
-            if response.status_code == 204:
-                logging.info("Successfully posted to Discord via webhook: %s", url)
-            else:
-                logging.error("Discord webhook returned status %s: %s", response.status_code, response.text)
-        except Exception as e:
-            logging.error("Error posting to Discord: %s", e)
+        success = False
+        retries = 0
+        max_retries = 3  # max 3 retries
 
+        while not success and retries < max_retries:
+            try:
+                response = requests.post(url, json=payload)
+                if response.status_code == 204:
+                    logging.info("Successfully posted to Discord via webhook: %s", url)
+                    success = True
+                elif response.status_code == 429:
+                    # status code 429: rate limiting
+                    try:
+                        data = response.json()
+                        retry_after = data.get("retry_after", 5)  # 5 seconds if no rate-limiting time is transmitted
+                    except Exception as e:
+                        logging.error("Fehler beim Parsen der Rate-Limit-Antwort: %s", e)
+                        retry_after = 5
+                    logging.warning("Rate limited by Discord. Retrying after %s seconds...", retry_after)
+                    time.sleep(retry_after)
+                    retries += 1
+                else:
+                    logging.error("Discord webhook returned status %s: %s", response.status_code, response.text)
+                    break  
+            except Exception as e:
+                logging.error("Error posting to Discord: %s", e)
+                break  
 
 def aggregate_new_entries(posted_entries):
     """
