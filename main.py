@@ -113,10 +113,10 @@ def post_to_discord(entry, webhook_urls):
                     retries += 1
                 else:
                     logging.error("Discord webhook returned status %s: %s", response.status_code, response.text)
-                    break  
+                      
             except Exception as e:
                 logging.error("Error posting to Discord: %s", e)
-                break  
+                  
 
 def aggregate_new_entries(posted_entries):
     """
