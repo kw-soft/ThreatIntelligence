@@ -78,6 +78,16 @@ Currently, the following RSS feeds are integrated:
 
 - **Sophos Security Advisories**
 - **Cisco Security News**
+- **ZDIFeed**
+- **ProjectZeroFeed**
+- **GithubFeed**
+- **CheckPointFeed**
+- **HackerNewsFeed**
+- **BleepingComputerFeed**
+- **MicrosoftFeed**
+- **SchneierFeed**
+- **CVEFeed**
+- **InfostealerFeed**
 
 More sources can be added easily by creating new feed classes in the `aggregator` module.
 
