@@ -5,7 +5,7 @@ This script aggregates multiple RSS feeds using modules from the aggregator pack
 It prints out standardized feed entries and ensures that each entry is processed only once
 by maintaining a persistent record of processed entries in a JSON file.
 It polls all feeds, aggregates new entries, sorts them by publication date, and posts them 
-in chronological order.
+in chronological order while respecting Discord’s rate limit.
 """
 
 import os
@@ -13,17 +13,28 @@ import json
 import time
 import logging
 import requests
-from dateutil.parser import parse as parse_date  # Requires python-dateutil
+from dateutil.parser import parse as parse_date  
+from config import GLOBAL_DISCORD_WEBHOOK, FEED_DISCORD_WEBHOOKS
+
 from aggregator.sophos_feed import SophosFeed
 from aggregator.cisco_feed import CiscoFeed
-from config import GLOBAL_DISCORD_WEBHOOK, FEED_DISCORD_WEBHOOKS
+from aggregator.zdi_feed import ZDIFeed
+from aggregator.projectzero_feed import ProjectZeroFeed
+from aggregator.githubsec_feed import GithubFeed
+from aggregator.checkpoint_feed import CheckPointFeed
+from aggregator.hackernews_feed import HackerNewsFeed
+from aggregator.bleepingcomputer_feed import BleepingComputerFeed
+from aggregator.microsoft_feed import MicrosoftFeed
+from aggregator.schneier_feed import SchneierFeed 
+from aggregator.cve_feed import CVEFeed
+from aggregator.infostealer_feed import InfostealerFeed
 
 # File used to persist processed entry identifiers (e.g., URLs)
 POSTED_FILE = "posted_entries.json"
 # Global polling interval for the overall loop (in seconds)
 GLOBAL_SLEEP_INTERVAL = 30  # For example, 5 minutes
 # Delay between processing individual feeds (in seconds)
-DELAY_BETWEEN_FEEDS = 10
+DELAY_BETWEEN_FEEDS = 1
 
 # Configure logging
 logging.basicConfig(
@@ -63,22 +74,37 @@ def save_posted_entries(posted_entries):
 
 def post_to_discord(entry, webhook_urls):
     """
-    Sends a structured message to Discord using embeds and handles rate limiting.
+    Sends a structured message to Discord using embeds while respecting rate limits.
+    If the entry is from the CVEFeed, an additional severity line is included in the embed.
 
     :param entry: Dictionary containing feed entry data.
-    :param webhook_urls: List of Discord webhook URLs to send the message to.
+    :param webhook_urls: List (or single string) of Discord webhook URLs to send the message to.
     """
-    embed = {
-        "title": entry["title"],
-        "url": entry["link"],
-        "description": (
-            f"**Published on:** {entry['pub_date']}\n"
-            f"**Author:** {entry['author']}\n\n"
-            f"**Overview:** {entry['overview']}..."
-        ),
-        "color": 0x007bff,  # Blue color
-        "footer": {"text": "ThreatFeed HQ"}
-    }
+    # Check if the entry is from CVEFeed
+    if entry.get("feed_type") == "CVEFeed":
+        
+        embed = {
+            "title": entry["title"],
+            "url": entry["link"],
+            "description": (
+                f"**Published on:** {entry['pub_date']}\n"
+                f"**Author:** {entry['author']}\n\n"
+                f"**Severity:** {entry['severity']}\n\n"
+                f"**Overview:** {entry['overview']}..."
+            ),
+            "color": 0xff0000  # Red color for CVE alerts
+        }
+    else:
+        embed = {
+            "title": entry["title"],
+            "url": entry["link"],
+            "description": (
+                f"**Published on:** {entry['pub_date']}\n"
+                f"**Author:** {entry['author']}\n\n"
+                f"**Overview:** {entry['overview']}..."
+            ),
+            "color": 0x007bff  # Blue color for regular feeds
+        }
 
     payload = {
         "username": "ThreatFeed HQ",
@@ -90,33 +116,24 @@ def post_to_discord(entry, webhook_urls):
         webhook_urls = [webhook_urls]
 
     for url in webhook_urls:
-        success = False
-        retries = 0
-        max_retries = 3  # max 3 retries
-
-        while not success and retries < max_retries:
+        while True:  # retry if rate limit is reached
             try:
                 response = requests.post(url, json=payload)
                 if response.status_code == 204:
                     logging.info("Successfully posted to Discord via webhook: %s", url)
-                    success = True
-                elif response.status_code == 429:
-                    # status code 429: rate limiting
-                    try:
-                        data = response.json()
-                        retry_after = data.get("retry_after", 5)  # 5 seconds if no rate-limiting time is transmitted
-                    except Exception as e:
-                        logging.error("Fehler beim Parsen der Rate-Limit-Antwort: %s", e)
-                        retry_after = 5
-                    logging.warning("Rate limited by Discord. Retrying after %s seconds...", retry_after)
-                    time.sleep(retry_after)
-                    retries += 1
+                    break  
+                elif response.status_code == 429:  # Rate Limit Error
+                    retry_after = response.json().get("retry_after", 1)  # wait 1 second
+                    logging.warning(f"Rate limit hit! Waiting {retry_after} seconds...")
+                    time.sleep(retry_after)  # wait for next try
                 else:
                     logging.error("Discord webhook returned status %s: %s", response.status_code, response.text)
-                      
+                    break  
+
             except Exception as e:
                 logging.error("Error posting to Discord: %s", e)
-                  
+                break  
+
 
 def aggregate_new_entries(posted_entries):
     """
@@ -130,7 +147,18 @@ def aggregate_new_entries(posted_entries):
     # List of feed instances to process.
     feeds = [
         SophosFeed("https://www.sophos.com/de-de/security-advisories/feed"),
-        CiscoFeed("https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security")
+        CiscoFeed("https://newsroom.cisco.com/c/services/i/servlets/newsroom/rssfeed.json?feed=security"),
+        ZDIFeed("https://www.zerodayinitiative.com/rss/published/"),
+        ProjectZeroFeed("https://googleprojectzero.blogspot.com/feeds/posts/default"),
+        GithubFeed("https://github.com/security-advisories"),
+        CheckPointFeed("https://research.checkpoint.com/feed/"),
+        HackerNewsFeed("https://feeds.feedburner.com/TheHackersNews/"),
+        BleepingComputerFeed("https://www.bleepingcomputer.com/feed/"),
+        MicrosoftFeed("https://msrc.microsoft.com/blog/feed/"),
+        SchneierFeed("https://www.schneier.com/feed/atom/"),
+        CVEFeed("https://cvefeed.io/rssfeed/latest.xml"),
+        InfostealerFeed("https://www.infostealers.com/learn-info-stealers/feed/")
+        
     ]
 
     for feed_instance in feeds:
@@ -162,7 +190,7 @@ def aggregate_new_entries(posted_entries):
 def main():
     """
     Main function that aggregates new entries from all feeds, sorts them by publication date,
-    and pushes them to Discord in chronological order.
+    and pushes them to Discord in chronological order while respecting rate limits.
     """
     logging.info("RSS Feed Aggregator started.")
     while True:
@@ -181,14 +209,14 @@ def main():
 
         # Process sorted new entries.
         for entry in new_entries:
-            # Post to the global Discord channel
-            post_to_discord(entry, GLOBAL_DISCORD_WEBHOOK)
+            
+            
 
             # Post to feed-specific Discord channels
             feed_type = entry.get("feed_type", "")
             if feed_type in FEED_DISCORD_WEBHOOKS:
                 post_to_discord(entry, FEED_DISCORD_WEBHOOKS[feed_type])
-
+                
             # Mark this entry as processed.
             posted_entries.add(entry.get("link", ""))
 

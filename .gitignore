@@ -2,3 +2,9 @@
 
 config.py
 aggregator.log
+test_feed.py
+dcbot.py
+
+# Ignore __pycache__ directories at any level
+**/__pycache__/
+*.pyc
