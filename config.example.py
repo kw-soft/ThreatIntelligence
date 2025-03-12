@@ -20,7 +20,7 @@ Usage:
 """
 
 # Global Discord webhook URL for the global channel (e.g., "News").
-GLOBAL_DISCORD_WEBHOOK = "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"
+GLOBAL_DISCORD_WEBHOOK = "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # vendor-sec
 
 # Feed-specific Discord webhooks.
 # Each key corresponds to a feed type (e.g., "SophosFeed", "CiscoFeed").
@@ -28,11 +28,46 @@ GLOBAL_DISCORD_WEBHOOK = "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_I
 # to different Discord channels.
 FEED_DISCORD_WEBHOOKS = {
     "SophosFeed": [
-        "https://discord.com/api/webhooks/YOUR_SOPHOS_WEBHOOK_ID/YOUR_SOPHOS_WEBHOOK_TOKEN"
+        "https://discord.com/api/webhooks/YOUR_SOPHOS_WEBHOOK_ID/YOUR_SOPHOS_WEBHOOK_TOKEN",  # sophos
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # global-news
     ],
     "CiscoFeed": [
-        "https://discord.com/api/webhooks/YOUR_CISCO_WEBHOOK_ID/YOUR_CISCO_WEBHOOK_TOKEN",
-        "https://discord.com/api/webhooks/ANOTHER_CISCO_WEBHOOK_ID/ANOTHER_CISCO_WEBHOOK_TOKEN"
+        "https://discord.com/api/webhooks/YOUR_CISCO_WEBHOOK_ID/YOUR_CISCO_WEBHOOK_TOKEN",  # cisco
+        "https://discord.com/api/webhooks/YOUR_THREAT_INTEL_WEBHOOK_ID/YOUR_THREAT_INTEL_WEBHOOK_TOKEN",  # threat-intel
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # global-news
+    ],
+    "ZDIFeed": [
+        "https://discord.com/api/webhooks/YOUR_ZDI_WEBHOOK_ID/YOUR_ZDI_WEBHOOK_TOKEN",  # exploits
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # global-news
+    ],
+    "ProjectZeroFeed": [
+        "https://discord.com/api/webhooks/YOUR_PROJECT_ZERO_WEBHOOK_ID/YOUR_PROJECT_ZERO_WEBHOOK_TOKEN"  # exploits
+    ],
+    "GithubFeed": [
+        "https://discord.com/api/webhooks/YOUR_GITHUB_WEBHOOK_ID/YOUR_GITHUB_WEBHOOK_TOKEN"  # github-sec
+    ],
+    "CheckPointFeed": [
+        "https://discord.com/api/webhooks/YOUR_CHECKPOINT_WEBHOOK_ID/YOUR_CHECKPOINT_WEBHOOK_TOKEN",  # exploits
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # global-news
+    ],
+    "HackerNewsFeed": [
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN",  # global-news
+        "https://discord.com/api/webhooks/YOUR_THREAT_INTEL_WEBHOOK_ID/YOUR_THREAT_INTEL_WEBHOOK_TOKEN",  # threat-intel
+        "https://discord.com/api/webhooks/YOUR_EXPLOITS_WEBHOOK_ID/YOUR_EXPLOITS_WEBHOOK_TOKEN"  # exploits
+    ],
+    "BleepingComputerFeed": [
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # global-news
+    ],
+    "MicrosoftFeed": [
+        "https://discord.com/api/webhooks/YOUR_MICROSOFT_WEBHOOK_ID/YOUR_MICROSOFT_WEBHOOK_TOKEN",  # microsoft
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # global-news
+    ],
+    "SchneierFeed": [
+        "https://discord.com/api/webhooks/YOUR_RESEARCH_WEBHOOK_ID/YOUR_RESEARCH_WEBHOOK_TOKEN",  # Research
+        "https://discord.com/api/webhooks/YOUR_GLOBAL_WEBHOOK_ID/YOUR_GLOBAL_WEBHOOK_TOKEN"  # global-news
+    ],
+    "CVEFeed": [
+        "https://discord.com/api/webhooks/YOUR_RESEARCH_WEBHOOK_ID/YOUR_RESEARCH_WEBHOOK_TOKEN"  # Research
     ],
     # Add additional feed-specific webhooks as needed.
 }
