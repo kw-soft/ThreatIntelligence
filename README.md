@@ -4,7 +4,9 @@
 
 Stay updated with the latest security advisories and news from multiple trusted sources. Our Discord server aggregates real-time threat intelligence from vendors like Sophos, Cisco, and many more.
 
-[**Join ThreatFeed HQ on Discord**](YOUR_DISCORD_INVITE_LINK)
+[**Join ThreatFeed HQ on Discord**](https://discord.gg/BgUCmYP3px)
+
+[<img src="https://discord.com/api/guilds/1337808478613278742/widget.png?style=banner4">](https://discord.gg/BgUCmYP3px)
 
 ---
 
@@ -37,8 +39,8 @@ Ensure you have Python installed (version 3.7+ recommended). You also need:
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/ThreatFeed-HQ.git
-cd ThreatFeed-HQ
+git clone https://github.com/KW-Soft/ThreatIntelligence.git
+cd ThreatIntelligence
 ```
 
 ### Install Dependencies
@@ -94,5 +96,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-For any issues or suggestions, feel free to open an issue or join our [**Discord Server**](YOUR_DISCORD_INVITE_LINK).
+For any issues or suggestions, feel free to open an issue or join our [**Discord Server**](https://discord.gg/BgUCmYP3px).
 
