@@ -69,5 +69,8 @@ FEED_DISCORD_WEBHOOKS = {
     "CVEFeed": [
         "https://discord.com/api/webhooks/YOUR_RESEARCH_WEBHOOK_ID/YOUR_RESEARCH_WEBHOOK_TOKEN"  # Research
     ],
+    "InfostealerFeed": [
+        "https://discord.com/api/webhooks/YOUR_RESEARCH_WEBHOOK_ID/YOUR_RESEARCH_WEBHOOK_TOKEN"  # global
+    ],    
     # Add additional feed-specific webhooks as needed.
 }

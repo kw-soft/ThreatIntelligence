@@ -14,7 +14,7 @@ import time
 import logging
 import requests
 from dateutil.parser import parse as parse_date  
-from config import GLOBAL_DISCORD_WEBHOOK, FEED_DISCORD_WEBHOOKS
+from config import FEED_DISCORD_WEBHOOKS
 
 from aggregator.sophos_feed import SophosFeed
 from aggregator.cisco_feed import CiscoFeed
@@ -128,7 +128,7 @@ def post_to_discord(entry, webhook_urls):
                     time.sleep(retry_after)  # wait for next try
                 else:
                     logging.error("Discord webhook returned status %s: %s", response.status_code, response.text)
-                    break  
+                      
 
             except Exception as e:
                 logging.error("Error posting to Discord: %s", e)
